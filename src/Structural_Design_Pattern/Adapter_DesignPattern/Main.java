@@ -15,7 +15,7 @@ public class Main {
         BusinessCardDesigner designer = new BusinessCardDesigner();
         System.out.println(designer.designCard(classAdapter));
 
-        
+
         // Onject Adapter
         System.out.println("*** Office Adapter ***");
         Employee employee = new Employee();
