@@ -16,8 +16,8 @@ public class Main {
         System.out.println(designer.designCard(classAdapter));
 
 
-        // Onject Adapter
-        System.out.println("*** Office Adapter ***");
+        // Object Adapter
+        System.out.println("*** Object Adapter ***");
         Employee employee = new Employee();
         populateEmployeeData(employee);
         EmployeeObjectAdapter objectAdapter = new EmployeeObjectAdapter(employee);
