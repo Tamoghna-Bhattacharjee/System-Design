@@ -2,7 +2,7 @@ package Creational_Design_Pattern.Singleton.Lazy_Singletons;
 
 public class LazyRegistry {
 
-    // INSTANCE should be accessed from Main memory instead of Cach
+    // INSTANCE should be accessed from Main memory instead of Cache
     private static volatile LazyRegistry INSTANCE = null;
 
     private LazyRegistry() {
