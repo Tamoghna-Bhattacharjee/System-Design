@@ -1,4 +1,4 @@
-package Creational_Design_Pattern.SimpleFactory;
+package Creational_Design_Pattern.SimpleFactory.Product;
 
 import java.time.LocalDate;
 

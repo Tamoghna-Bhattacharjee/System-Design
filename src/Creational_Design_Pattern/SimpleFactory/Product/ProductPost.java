@@ -1,4 +1,4 @@
-package Creational_Design_Pattern.SimpleFactory;
+package Creational_Design_Pattern.SimpleFactory.Product;
 
 /**
  * Represents a product information post. 
