@@ -1,8 +1,8 @@
-package Structural_Design_Pattern.Strategy_DesignPattern;
+package Behavioural_DesignPattern.Strategy_DesignPattern;
 
-import Structural_Design_Pattern.Strategy_DesignPattern.ConcreteStrategy.DetailPrinter;
-import Structural_Design_Pattern.Strategy_DesignPattern.ConcreteStrategy.SummaryPrinter;
-import Structural_Design_Pattern.Strategy_DesignPattern.Context.PrintService;
+import Behavioural_DesignPattern.Strategy_DesignPattern.ConcreteStrategy.DetailPrinter;
+import Behavioural_DesignPattern.Strategy_DesignPattern.ConcreteStrategy.SummaryPrinter;
+import Behavioural_DesignPattern.Strategy_DesignPattern.Context.PrintService;
 
 import java.util.LinkedList;
 

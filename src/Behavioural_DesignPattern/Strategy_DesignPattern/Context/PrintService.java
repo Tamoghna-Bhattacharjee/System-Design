@@ -1,10 +1,9 @@
-package Structural_Design_Pattern.Strategy_DesignPattern.Context;
+package Behavioural_DesignPattern.Strategy_DesignPattern.Context;
 
-import Structural_Design_Pattern.Strategy_DesignPattern.Order;
-import Structural_Design_Pattern.Strategy_DesignPattern.Strategy.OrderPrinter;
+import Behavioural_DesignPattern.Strategy_DesignPattern.Order;
+import Behavioural_DesignPattern.Strategy_DesignPattern.Strategy.OrderPrinter;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class PrintService {
 

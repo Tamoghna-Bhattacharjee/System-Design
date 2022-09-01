@@ -1,4 +1,4 @@
-package Structural_Design_Pattern.Strategy_DesignPattern;
+package Behavioural_DesignPattern.Strategy_DesignPattern;
 
 import java.time.LocalDate;
 import java.util.HashMap;
