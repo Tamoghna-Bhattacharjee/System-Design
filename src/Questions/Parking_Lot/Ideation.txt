@@ -1,0 +1,40 @@
+Map:
+
+    Vehicle ----> Entrance gate (Ticket) ----> Parking Lot -------> Exit gate (Bill payment)
+
+
+Requirements:
+    1. Find nearest parking spot
+    2. How many entrance - 1
+    3. Diff type of spot - 2 => {2 wheeler, 3 wheeler}
+    4. Parking spot charge (must be extensible for "Hr based algo"): Min based algo
+    5. Prking Floors: NO
+
+
+Object:
+    Vehicle:
+        Vehicle no
+        Vehicle Type: enum {2 wheeler, 3 wheeler}
+
+    Parking spot:
+        id
+        isEmpty
+        price
+        type
+        Vehicle {NULL}
+
+    Ticket:
+        Entry time
+        Parking Spot
+
+    Entrance Gate:
+        find_parking_space()
+        update_parking_space()
+        generate ticket()
+
+    Exit Gate:
+        cost_calculate()
+        payment()
+        upadte_parkingSpot()
+
+
