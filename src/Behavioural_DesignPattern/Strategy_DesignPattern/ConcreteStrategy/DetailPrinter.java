@@ -1,7 +1,7 @@
-package Behavioural_DesignPattern.Strateg.ConcreteStrategy;
+package Behavioural_DesignPattern.Strategy_DesignPattern.ConcreteStrategy;
 
-import Behavioural_DesignPattern.Strateg.Order;
-import Behavioural_DesignPattern.Strateg.Strategy.OrderPrinter;
+import Behavioural_DesignPattern.Strategy_DesignPattern.Order;
+import Behavioural_DesignPattern.Strategy_DesignPattern.Strategy.OrderPrinter;
 
 import java.util.Collection;
 import java.util.Map;
