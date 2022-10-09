@@ -1,7 +1,7 @@
-package Behavioural_DesignPattern.Strategy_DesignPattern.Context;
+package Behavioural_DesignPattern.Strateg.Context;
 
-import Behavioural_DesignPattern.Strategy_DesignPattern.Order;
-import Behavioural_DesignPattern.Strategy_DesignPattern.Strategy.OrderPrinter;
+import Behavioural_DesignPattern.Strateg.Order;
+import Behavioural_DesignPattern.Strateg.Strategy.OrderPrinter;
 
 import java.util.LinkedList;
 

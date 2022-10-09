@@ -1,4 +1,4 @@
-package Behavioural_DesignPattern.Strategy_DesignPattern;
+package Behavioural_DesignPattern.Strateg;
 
 import java.time.LocalDate;
 import java.util.HashMap;
