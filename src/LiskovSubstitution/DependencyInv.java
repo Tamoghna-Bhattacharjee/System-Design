@@ -16,12 +16,16 @@ class Manage {
         employees = new ArrayList<>();
     }
 
-    public void addDeveloper(Developer developer) {
-        employees.add(developer);
+    public void addEmployee(Employee e) {
+        employees.add(e);
     }
-    public void addTester(Tester tester) {
-        employees.add(tester);
-    }
+//    -> Removing the dependency by abstraction
+//    public void addDeveloper(Developer developer) {
+//        employees.add(developer);
+//    }
+//    public void addTester(Tester tester) {
+//        employees.add(tester);
+//    }
 }
 
 class Employee {
