@@ -12,7 +12,7 @@ public class BitmapImage implements Image {
         // Load file from disc
         // Creation of this object leads to loading of the file from Disk which is a slower operation
         // We don't want to make this object unless absolutely needed
-        System.out.println("Loading image from disc: " + filename);
+        System.out.println("Loading image from disk: " + filename);
         this.filename = filename;
     }
 
